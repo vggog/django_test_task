@@ -4,9 +4,9 @@
     <title>Buy Item {{ item_id }}</title>
   </head>
   <body>
-    <h1>Item {{ item_id }}</h1>
-    <p>Description of Item 1</p>
-    <p>1111</p>
+    <h1>{{ name }}</h1>
+    <p>{{ description }}</p>
+    <p>{{ price }}</p>
     <button id="buy-button">Buy</button>
     <script type="text/javascript">
       var stripe = Stripe('pk_test_a9nwZVa5O7b0xz3lxl318KSU00x1L9ZWsF');
