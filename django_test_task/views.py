@@ -7,7 +7,10 @@ from . import services
 from . import settings
 
 
-def index():
+def home(request):
+    """
+    Home page.
+    """
     return HttpResponse(
         'Hello, welcome to the home page of the test task.'
     )
